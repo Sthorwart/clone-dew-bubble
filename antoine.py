@@ -12,7 +12,7 @@ def antoine( a, T):
     #  T - the temperature at which the vapor pressure is evaluated (K)
     #  tempUnit - OPTIONAL the unit of temperature used
     #  If temperature is inputted in the units of Fahrenheit
-    #  T_K = (32*T − 32) * (5/9) + 273 
+    T_K = (32*T − 32) * (5/9) + 273 
     #
     # OUTPUT:
     #  Ps - row vector of species vapor pressures at the specified temperature,
